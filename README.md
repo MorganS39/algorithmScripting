@@ -1,2 +1,2 @@
 # algorithmScripting
-Introduction to basic algorithm scripting
+A test of my basic algorithm scripting skills in JS
