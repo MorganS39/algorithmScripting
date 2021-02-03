@@ -123,4 +123,13 @@ function titleCase(str) {
 
 titleCase("I'm a little tea pot");
 
-//
+// Slice and splice
+function frankenSplice(arr1, arr2, n) {
+  let startArray = arr2.slice();
+  startArray.splice(n, 0, ...arr1);
+  return startArray;
+ }
+ 
+ frankenSplice([1, 2, 3], [4, 5, 6], 1);
+
+ //
