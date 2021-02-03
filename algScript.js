@@ -113,4 +113,14 @@ function booWho(bool) {
 booWho(null);
 
 // Title case a sentence
+function titleCase(str) {
+  var arraySplit = str.toLowerCase().split(" ");
+  var toUpper = arraySplit.map(function(val) {
+    return val.replace(val.charAt(0), val.charAt(0).toUpperCase());
+  });
+  return toUpper.join(" ");
+}
 
+titleCase("I'm a little tea pot");
+
+//
