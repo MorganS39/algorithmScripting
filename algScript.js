@@ -143,4 +143,11 @@ function frankenSplice(arr1, arr2, n) {
 
 bouncer([7, "ate", "", false, 9]);
 
+// Where do I belong (nowhere)
+function getIndexToIns(arr, num) {
+  return arr.filter(val => num > val).length;
+}
+
+getIndexToIns([40, 60], 50);
+
 //
