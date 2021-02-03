@@ -132,4 +132,15 @@ function frankenSplice(arr1, arr2, n) {
  
  frankenSplice([1, 2, 3], [4, 5, 6], 1);
 
- //
+ // Falsy bouncer
+ function bouncer(arr) {
+  let converter = [];
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i]) converter.push(arr[i]);
+  }
+  return converter;
+}
+
+bouncer([7, "ate", "", false, 9]);
+
+//
