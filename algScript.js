@@ -16,4 +16,14 @@ function reverseString(str) {
 
 reverseString("hello");
 
+// Factoralize a number test (failed)
+function factorialize(num) {
+    for (var factor = 1; num > 0; num--) {
+      factor *= num;
+    }
+    return factor;
+}
+
+factorialize(5);
+
 //
